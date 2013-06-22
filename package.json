@@ -1,15 +1,21 @@
 {
   "name":"name_com_api",
   "description": "Name.com api, a story about a security check point",
-    "version":"1.0.0",
-      "author":{
-        "name": "Robert Doroftei",
-          "email":"robert.doroftei@gmail.com"
-      },
-        "mail":"name_com_api.js",
-          "dependencies":{
-            "request":"~2.21.0"
-          },
-            "_id":"name_com_api@1.0.0",
-              "_from":"name_com_api@"
+  "version":"1.0.0",
+  "author":{
+    "name": "Robert Doroftei",
+    "email":"robert.doroftei@gmail.com"
+  },
+  "main":"name_com_api.js",
+  "dependencies":{
+    "request":"~2.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobertDoroftei/name_com_api.git"
+  },
+  "readme": "#name.com api communication window\n\n\n##how to use\n\n\n```javascript\n\n var name_com_api = require(\"name_com_api\");\nvar api = name_com_api(username, api_token,true); //true stands for: we are still not in production\n api.run_a_test(); \n```\n\n will run\n/hello\n/account/get\n/domain/list\n /domain/check \n \n all requests have to be secured by a session_token provided on login to the api",
+  "readmeFilename": "README.md",
+  "_id":"name_com_api@1.0.0",
+  "_from":"name_com_api@"
 }
