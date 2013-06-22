@@ -1,0 +1,15 @@
+{
+  "name":"name_com_api",
+  "description": "Name.com api, a story about a security check point",
+    "version":"1.0.0",
+      "author":{
+        "name": "Robert Doroftei",
+          "email":"robert.doroftei@gmail.com"
+      },
+        "mail":"name_com_api.js",
+          "dependencies":{
+            "request":"~2.21.0"
+          },
+            "_id":"name_com_api@1.0.0",
+              "_from":"name_com_api@"
+}
