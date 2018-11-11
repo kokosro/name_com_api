@@ -8,7 +8,7 @@
   },
   "main":"name_com_api.js",
   "dependencies":{
-    "request":"~2.21.0"
+    "request":"latest"
   },
   "repository": {
     "type": "git",
